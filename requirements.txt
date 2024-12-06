@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+pdfminer.six
+reportlab
+pydantic
+python-multipart
+pymupdf
