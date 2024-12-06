@@ -64,6 +64,37 @@ Welcome to the **PDF Comparison Tool**, a simple and efficient solution to compa
 
 ---
 
+## Known Limitations
+
+1. **Formatting Issues**:
+   - The tool only extracts plain text from PDFs, and formatting such as bold, italics, or tables is not retained.
+   - PDF files with complex layouts, such as multi-column text or heavy use of images, may not be processed accurately.
+
+2. **Text Alignment**:
+   - Differences are displayed in a linear manner. Overlapping text or alignment issues may arise for PDFs with irregular text flow.
+
+3. **Unsupported Characters**:
+   - Non-standard or unsupported character encodings in the PDF may lead to inaccurate text extraction or comparison.
+
+4. **Performance**:
+   - Comparing large PDFs with many pages may result in slower processing times.
+
+5. **Highlighting**:
+   - The tool highlights differences in a basic manner. It does not provide advanced diff visualization for word-level changes in continuous lines.
+
+6. **File Type**:
+   - Currently supports only PDF files. Other file formats (e.g., Word, Excel) are not supported.
+
+7. **Graphical Content**:
+   - This tool does not compare graphical content, charts, or images in PDFs.
+
+8. **Whitespace Handling**:
+   - Excessive or missing whitespaces may affect the diff results as they are treated as differences.
+
+Feel free to contribute or suggest improvements to address these limitations!
+
+---
+
 ## Dependencies
 
 - **FastAPI**: Framework for building APIs.
